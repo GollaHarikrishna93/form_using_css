@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Details</title>
+    <style>
+        body{
+            align-items: center;
+        }
+        fieldset{
+            width: 500px;
+            border: 3px solid;
+            border-radius: 25px;
+        }
+        input[readonly]{
+            color: black;
+            background-color: aqua;
+        }
+         legend{
+            font-size: 50px;
+            color: blueviolet;
+         }
+          select{
+            color: black;
+            background-color: aqua;
+          }
+          body{
+            background-color: rgb(255, 0, 106);
+          }
+          label{
+            color: rgb(223, 10, 10);
+            font-size: 24px;
+          }
+          textarea{
+            background-color: lightgray;
+            color: 20px;
+            font-size: 20px;
+          }
+        </style>
+    </head>
+     <body>
+         <center> <form action="">
+             <fieldset>
+                 <LEgend>Course</LEgend>
+            
+
+
+<label for="">SELECT COURSE</label> <br>
+<select name="" id="" required>
+    <option value="">JAVA FULL STACK</option>
+    <option value="">PYTHON FULL STACK</option>
+    </select> <br> <br>
+    <label for="">INSTITUTE NAME</label>
+    <input type="text" value="TAP ACADEMY" readonly> <br> <br>
+    <label for="" >DELIVERY MODE</label>
+    <input type="checkbox" name="mode1" value="ON" required>ONLINE
+    <input type="checkbox" name="mode2" value="OFF" required>OFFLINE
+</select> <br>
+<br>
+<label for="">COMMENTS</label> <br>
+<textarea rows="6" cols="30" required></textarea> <br>
+<br>
+<input type="submit" >
+</fieldset>
+</body>
+</html>
